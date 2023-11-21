@@ -1,0 +1,68 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* start header section */
+#topfixed{
+    background-color: #FF6900;
+    position: fixed;
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+}
+
+
+#nav{
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1em;  
+}
+
+/* 3 link top left */
+
+#type>a{
+    text-decoration: none;
+    color: white;
+}
+
+/* logo top-center */
+
+#logo{
+    display: flex;
+    justify-content: center;
+}
+
+#logo>img{
+    height: auto; 
+    width: 20%;
+}
+
+/* 3 iicons top right */
+
+#action{
+    display: flex;
+    gap: 1em;
+}
+
+/* end header section */
+
+
+
+
+
+/* start main section */
+
+
+
+
+
+
+
+
+
+/* end main section */
