@@ -4,6 +4,9 @@
     box-sizing: border-box;
 }
 
+html{
+    font-family: sans-serif;
+}
 /* start header section */
 #topfixed{
     background-color: #FF6900;
@@ -16,11 +19,11 @@
 
 
 #nav{
-    width: 80%;
+    width: 65%;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 1em;  
+    padding: 1vh;  
 }
 
 /* 3 link top left */
@@ -59,9 +62,87 @@
 
 
 
+main{
+    width: 65%;
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+    padding-top: 10vh;
+    flex-wrap: wrap;
+    gap: 6%;
+    
+}
+
+.card{
+    width: calc("100%/3");
+    height: 800px;
+}
+
+.img>img{
+    width: auto;
+    height: 500px;
+}
+
+.img{
+    position: relative;
+}
 
 
+.tag{
+    position: absolute;
+    left: 0px;
+    bottom: 12%;
+    width: 100%;
+    height: auto;
+}
 
+.heart{
+    width: 40px;
+    height: 40px;
+    position: absolute;
+    top: 3%;
+    right: 0px;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.info{
+    display: flex;
+    flex-direction: column;
+}
+
+.sale{
+    background-color: red;
+    color: white;
+    padding: 1% 3%;
+    font-size: 13px;
+}
+.sustainability{
+    background-color: green;
+    color: white;
+    padding: 1% 3%;
+    font-size: 13px;
+}
+
+.brand{
+    font-size: 13px;
+}
+
+.name{
+    font-weight: bold;
+}
+
+.price{
+    color: red;
+    font-size: 13px;
+}
+
+.oldprice{
+    color: black;
+    text-decoration: line-through;
+}
 
 
 
