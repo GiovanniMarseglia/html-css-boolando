@@ -62,10 +62,7 @@ html{
 
 
 
-
 /* start main section */
-
-
 
 main{
     width: 65%;
@@ -100,7 +97,6 @@ main{
 }
 
 
-
 .img{
     position: relative;
 }
@@ -114,6 +110,7 @@ main{
     height: auto;
 
 }
+
 
 .heart{
 
